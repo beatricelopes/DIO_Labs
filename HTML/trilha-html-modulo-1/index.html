@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Página - Módulo I - Primeiros Passos com HTML</title>
+</head>
+
+<body>
+   <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+   <hr />
+
+   <h3>Índice</h3>
+   <ul>
+      <li><a href="#historia">História dos computadores</a></li>
+      <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+      <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+      <li><a href="#estrutura-html">Como é uma estrutura básica de um HTML?</a></li>
+      <li><a href="#listas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+      <li><a href="#links">Links de referências</a></li>
+   </ul>
+
+   <h2 id="historia">História dos computadores</h2>
+   <p>A história dos computadores modernos teve seu ponto de partida com o ENIAC (Electronic Numerical Integrator and
+      Computer), desenvolvido durante a Segunda Guerra Mundial nos Estados Unidos. Concluído em 1946, o ENIAC foi o
+      primeiro
+      computador eletrônico de grande escala, ocupando uma sala inteira e sendo usado principalmente para
+      <strong>cálculos balísticos</strong>.
+   </p>
+   <p>Enquanto isso, do outro lado do Atlântico, na Grã-Bretanha, o Colossus emergia como um dos primeiros computadores
+      digitais programáveis.
+      Desenvolvido secretamente durante a guerra, em 1943, o Colossus foi fundamental na quebra de códigos alemães,
+      contribuindo significativamente para o esforço de guerra dos Aliados.
+      Após o fim da guerra, a tecnologia dos computadores continuou a evoluir rapidamente. Na década de 1970, surgiram
+      empresas que moldariam a indústria da computação moderna.
+   </p>
+   <p>A Microsoft, fundada por Bill Gates e Paul Allen em 1975, lançou o sistema operacional MS-DOS, que se tornou
+      amplamente adotado em computadores pessoais.
+      <br>
+      Enquanto isso, a Apple, fundada por Steve Jobs, Steve Wozniak e Ronald Wayne em 1976, introduziu o Apple I,
+      seguido pelo revolucionário Apple II em 1977, que foi um dos primeiros computadores pessoais a apresentar uma
+      interface gráfica do usuário.
+   </p>
+   <p>A rivalidade entre a Microsoft e a Apple foi um dos pontos-chave na história da computação pessoal. Enquanto a
+      Microsoft dominava o mercado de sistemas operacionais, a Apple ganhava destaque com inovações em design e
+      usabilidade, culminando no lançamento do Macintosh em 1984, que popularizou o conceito de GUI (Interface Gráfica
+      do Usuário) para computadores pessoais.
+      Essas empresas continuaram a competir e inovar ao longo das décadas seguintes, lançando produtos emblemáticos como
+      o Windows 95 da Microsoft e o iPhone da Apple, que definiram novos padrões na indústria da tecnologia. A história
+      da Microsoft e da Apple é um reflexo da evolução da computação moderna, desde seus primórdios até a era dos
+      dispositivos móveis e da computação em nuvem.
+   </p>
+
+   <h2 id="clients">O que são <i>Clients</i>?</h2>
+   <p><i>Clients</i> são dispositivos ou softwares que solicitam serviços ou recursos de outros dispositivos ou
+      softwares,
+      chamados de servidores. Eles podem ser computadores, smartphones, tablets ou aplicativos que acessam serviços
+      online,
+      como navegadores da web, clientes de e-mail, aplicativos de mensagens e muito mais.
+      Essa interação entre cliente e servidor é fundamental para a comunicação e interação entre sistemas
+      computacionais.</p>
+
+   <h2 id="servers">O que são <i>Servers</i>?</h2>
+   <p>Os <i>Servers</i> são dispositivos ou softwares que fornecem serviços ou recursos para clientes.
+      Eles podem ser computadores dedicados, aplicativos ou serviços online que respondem a solicitações dos clientes.
+      Os servidores são responsáveis por armazenar e gerenciar dados, hospedar sites, executar aplicativos e facilitar a
+      comunicação entre diferentes dispositivos e sistemas computacionais.
+      Em resumo, os servidores desempenham um papel central na disponibilização de recursos e serviços para os clientes
+      na infraestrutura de rede e computação.</p>
+
+   <h2 id="estrutura-html">Como é uma estrutura básica de um HTML?</h2>
+   <p>A estrutura de um documento HTML consiste nos seguintes elementos:
+   <ul>
+      <li><b>DOCTYPE:</b> Declaração que define o <b>tipo</b> de documento HTML, geralmente é <code>!DOCTYPE html</code>
+         para documentos HTML5.</li>
+      Elemento HTML: Todo o conteúdo HTML é encapsulado dentro do elemento <code>html</code>, que define o início e o
+      fim do documento.
+      <li><b>Head:</b> O cabeçalho do documento HTML é definido pelo elemento <code>head</code>. Ele contém
+         <i>metadados</i>, como o título da página (definido pelo elemento <code>title</code>), referências a folhas de
+         estilo <b>CSS</b>, <b>scripts</b> Javascript e outras informações de configuração.
+      <li><b>Body:</b> O conteúdo visível da página é definido dentro do elemento <code>body</code>. Aqui é onde você
+         inclui <b>texto</b>, <b>imagens</b>, <b>links</b> e outros elementos que deseja que os visitantes vejam quando
+         acessam sua página. O conteúdo do <code>body</code> é o que os navegadores renderizam para exibir a página web
+         aos usuários.
+         Esses elementos fornecem a estrutura básica para construir uma página HTML. Dentro do corpo, você pode
+         adicionar tantos elementos quanto necessário para criar o layout e o conteúdo desejados para a sua página.
+   </ul>
+   </p>
+
+   <h2 id="listas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+   <p>Em HTML, há duas maneiras principais de criar listas: listas ordenadas <code>ol</code> e listas não ordenadas
+      <code>ul</code>.
+      <br>
+      Aqui está a diferença entre elas:
+   </p>
+
+   <h3><strong>Listas Ordenadas <code>&lt;ol&gt;</code></strong>:</h3>
+   <p>As listas ordenadas são utilizadas quando a ordem dos itens na lista é importante.
+      Cada item na lista é marcado com um número, por padrão, começando em 1.
+      A marcação numérica pode ser alterada usando o atributo type do elemento <code>&lt;ol&gt;</code>, que pode ser
+      configurado para
+      "1" (números arábicos), "a" (letras minúsculas), "A" (letras maiúsculas), "i" (números romanos minúsculos) ou "I"
+      (números romanos maiúsculos).
+   <p>
+   <p>Para criar uma lista ordenada, você utiliza o elemento <code>&lt;ol&gt;</code>, e cada item da lista é definido
+      com o elemento
+      <code>&lt;li&gt;</code> (item de lista).
+   <p>Exemplo de lista ordenada:</p>
+   <code>
+         <pre>
+            html
+            &lt;ol&gt;
+            &lt;li&gt;Primeiro item&lt;/li&gt;
+            &lt;li&gt;Segundo item&lt;/li&gt;
+            &lt;li&gt;Terceiro item&lt;/li&gt;
+            &lt;/ol&gt;
+         </pre>
+      </code>
+
+   <h3><strong>Listas Não Ordenadas <code>&lt;ul&gt;</code>:</strong></h3>
+   <p>As listas não ordenadas são utilizadas quando a ordem dos itens na lista não é importante.
+      Cada item na lista é marcado com um símbolo de bullet por padrão (geralmente um ponto preto).
+      O estilo dos bullets pode ser personalizado usando CSS.</p>
+   <p>Para criar uma lista não ordenada, você utiliza o elemento <code>&lt;ul&gt;</code>, e cada item da lista é
+      definido com o
+      elemento <code>&lt;li></code> (item de lista).</p>
+   <p>Exemplo de lista não ordenada:</p>
+
+   <pre>
+         <code>
+            html
+            &lt;ul>
+            &lt;li>Item A&lt;/li>
+            &lt;li>Item B&lt;/li>
+            &lt;li>Item C&lt;/li>
+            &lt;/ul>
+         </code>
+   </pre>
+
+   <p>Em resumo, a diferença fundamental entre listas ordenadas e não ordenadas é a <strong>forma como os itens são
+         marcados
+         e exibidos</strong>, com listas ordenadas utilizando numeração e listas não ordenadas utilizando bullets.
+   </p>
+
+   <h4 id="links">Links de referências</h4>
+   <ul>
+      <li><a href="http://dio.me">DIO</a></li>
+      <li><a href="http://w3c.org">W3C</a></li>
+      <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">Developer - Mozilla</a></li>
+   </ul>
+
+</body>
+
+</html>
